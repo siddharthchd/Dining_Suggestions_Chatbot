@@ -34,7 +34,7 @@ Driven by Natural Language, the chatbot is designed using AWS services in order 
 
 ## Workflow
 
-* The frontend for the application (base code as displayed in image is present in the assets dir) is hostend in an S3 bucket as a static website.
+* The frontend for the application (base code as displayed in image is present in the assets dir) is hosted in an S3 bucket as a static website.
 * The 'swagger.yaml' file is used as a template for API Gateway. A lambda function (LF0) is invoked for all API requests.
 * A different lambda function (LF1) is used as a code hook for the Lex Service.
 * Yelp API is used to collect 7,000+ restaurants in belonging to 7 different cuisines.
