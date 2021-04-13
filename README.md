@@ -8,12 +8,9 @@ The concierge chatbot for dining suggestions is a server-less, distributed, micr
 * [Technologies](#technologies)
 * [Workflow](#workflow)
 
-<br>
-
 ## Description
 
 Driven by Natural Language, the chatbot is designed using AWS services in order to provide restaurant suggestions to the users based on their requirements such as the City, Time and Date of dining, Number of People and the preferred Cuisine type. The frontend for the application is hosted in an AWS S3 bucket which provides the user with an interface to interact with the chatbot. AWS LexBot is used to process text inputs by the user, the bot uses Yelp API to fetch relevant suggestions which are then sent to the user over a text message to the number provided by the user. 
-<br>
 
 ![Chatbot Demo](https://github.com/siddharthchd/Dining_Suggestions_Chatbot/blob/main/images/chatbot_demo.png)
 <br>
@@ -34,7 +31,6 @@ Driven by Natural Language, the chatbot is designed using AWS services in order 
 * AWS - DynamoDB
 * AWS - CloudWatch Events
 * Yelp API
-<br>
 
 ## Workflow
 
