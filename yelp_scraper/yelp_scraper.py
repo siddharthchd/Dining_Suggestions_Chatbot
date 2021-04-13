@@ -3,7 +3,7 @@ import decimal
 import csv
 import datetime
 
-API_KEY = 'izsOt6FRH__JwWRpgbDDQLh4cC2wcH5-6QZwS_GWtv0GJssofl6dy4ff_IaxZ79MzQmDKQLOKnfioOdcEBaKU2YjRmKtZOQ4VVmvlSb2SoTSjri0GsSYMhGTS589YHYx'
+API_KEY = 'YOUR-API-KEY'
 ENDPOINT = 'https://api.yelp.com/v3/businesses/search'
 HEADERS = {'Authorization': 'bearer %s' % API_KEY}
 LIMIT = 50
